@@ -1,0 +1,14 @@
+material CerdanyaDroneport/Background
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture very_large_cerdanya.png
+      }
+    }
+  }
+}
+

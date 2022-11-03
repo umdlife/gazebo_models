@@ -1,0 +1,14 @@
+material CerdanyaDroneport/Plane
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture small_cerdanya.png
+      }
+    }
+  }
+}
+

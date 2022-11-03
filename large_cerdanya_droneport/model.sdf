@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="large_cerdanya_droneport">
+    <static>true</static>
+    <link name="link">
+      <pose>0.0 1.0 -1.3 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://large_cerdanya_droneport/meshes/large_cerdanya_centered.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="branch">
+        <geometry>
+          <mesh>
+            <uri>model://large_cerdanya_droneport/meshes/large_cerdanya_centered.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://large_cerdanya_droneport/materials/scripts/</uri>
+            <uri>model://large_cerdanya_droneport/materials/textures/</uri>
+            <name>CerdanyaDroneport/LargePlane</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
